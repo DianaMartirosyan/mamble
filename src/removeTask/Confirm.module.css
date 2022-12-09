@@ -1,0 +1,18 @@
+.confirm_message {
+    color: #008594;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.cancel_button, .confirm_button {
+    background: none !important;
+    border: none !important;
+    margin: 1%;
+    color: #174348 !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 28px;
+}

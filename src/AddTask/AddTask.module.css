@@ -1,0 +1,49 @@
+.add_task_button {
+    width: 80px;
+    background: #008594 !important;
+    border-radius: 4px !important;
+    font-size: 18px !important;
+    width: 500;
+    color: #FFFFFF !important;
+    margin-left: 24px !important;
+}
+
+.input {
+    border-radius: 4px !important;
+    border-color: #FFCD04;
+}
+
+
+
+
+/* Media Queries,  tablet, iPad, *smartphones */
+
+@media screen and (min-width: 320px) and (max-width: 481px) {
+    .input {
+        width: 98% !important;
+    }
+
+    .add_task_button {
+        margin-left: 65% !important;
+        margin-top: 4%;
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+    .input {
+        width: 98% !important;
+    }
+
+    .add_task_button {
+        margin-left: 50% !important;
+        margin-top: 4%;
+    }
+
+    .add_task_button {
+        margin-left: 60% !important;
+        margin-top: 4%;
+    }
+
+}
